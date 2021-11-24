@@ -1,0 +1,92 @@
+name: second_elementry_school
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  confetti: ^0.6.0
+  just_audio: ^0.9.13
+  permission_handler: ^8.2.5
+  image_gallery_saver: ^1.7.1
+  basic_utils: ^3.7.0
+  dynamic_text_highlighting: ^2.2.0
+  scrollable_positioned_list: ^0.2.2
+  flutter_native_splash: ^1.3.1
+  audio_video_progress_bar: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_native_splash:
+  color: "#74cef3"
+  image: assets/images/splash.png
+  android: true
+  ios: true
+  android_gravity: fill
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+      - assets/images/
+      - assets/sounds/good/
+      - assets/sounds/wrong/
+      - assets/sounds/words/
+      - assets/sounds/lessons/
+      - assets/sounds/lessons2/
+      - assets/sounds/lessons3/
+      - assets/sounds/gurab_atshan/
+      - assets/sounds/grandmastories/
+      - assets/sounds/jadatysong/
+      - assets/sounds/from_iraq/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
