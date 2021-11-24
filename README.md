@@ -1,16 +1,15 @@
-# second_elementry_school
+# Qira'aty App
 
-A new Flutter application.
+It's a reading app for second elementary school students.
 
-## Getting Started
+Including allot of stuff like listen to the lesson and reading it and also include exercises and writing on the screen and much more
 
-This project is a starting point for a Flutter application.
+## App Banner
 
-A few resources to get you started if this is your first Flutter project:
+<img src = "assets/images/qiraty.jpg">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screen Shots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src = "assets/images/c1.png" height = 450;> <img src = "assets/images/c2.png" height = 450;> <img src = "assets/images/c3.png" height = 450;>
+
+<img src = "assets/images/c4.png" height = 450;> <img src = "assets/images/c5.png" height = 450;> <img src = "assets/images/c6.png" height = 450;>
