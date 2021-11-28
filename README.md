@@ -6,7 +6,7 @@ Including allot of stuff like listen to the lesson and reading it and also inclu
 
 ## App Banner
 
-<img src = "assets/images/qiraty.jpg">
+<img src = "assets/images/qiraty.png">
 
 ## Screen Shots
 
